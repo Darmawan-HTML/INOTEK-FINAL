@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prototype Scan QR – Pahlawan Makassar</title>
+  <title>Pahlawan Makassar</title>
   <style>
     body {
       margin: 0;
@@ -146,7 +146,6 @@
     </div>
   </section>
 
-  <!-- Popup container -->
   <div class="popup-bg" id="popup-bg" onclick="closePopup(event)">
     <div class="popup" id="popup">
       <button class="close-btn" onclick="closePopup(event)">✖</button>
@@ -160,28 +159,28 @@
         img: 'hasanuddin.png',
         name: 'Sultan Hasanuddin',
         desc: 'Sultan Gowa ke-16 yang dikenal sebagai Ayam Jantan dari Timur karena keberaniannya melawan VOC. Ia memimpin perlawanan besar di Benteng Somba Opu hingga tahun 1669.',
-        makam: '<a href="https://maps.app.goo.gl/Gjyz3PjWvA4zK7xF8" target="_blank">Makam Sultan Hasanuddin – Sungguminasa, Gowa</a>',
+        makam: '<a href="https://www.google.com/maps/place/Kompleks+Makam+Sultan+Hasanuddin/@-5.1922817,119.4493899,17z/data=!3m1!4b1!4m6!3m5!1s0x2dbee30034fc7689:0x3a047a8d79a8a7dd!8m2!3d-5.1922817!4d119.4519648!16s%2Fg%2F11yd2yrtyr?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Makam Sultan Hasanuddin/a>',
         link: 'sultanhasanuddin.html'
       },
       yusuf: {
         img: 'yusuf.png',
         name: 'Syekh Yusuf al-Makassari',
         desc: 'Ulama besar dan pejuang anti-kolonial dari Makassar. Ia diasingkan oleh Belanda ke Afrika Selatan dan tetap dikenang sebagai penyebar Islam yang berpengaruh.',
-        makam: '<a href="https://maps.app.goo.gl/x6P4gm1xFztj3m1p7" target="_blank">Makam Syekh Yusuf – Kabupaten Gowa</a>',
+        makam: '<a href="https://www.google.com/maps/place/Makam+Syekh+Yusuf+Al+Makassari/@-5.18822,119.4456834,17.26z/data=!4m6!3m5!1s0x2dbee375c8400339:0x221090a4a267035!8m2!3d-5.1885242!4d119.4453472!16s%2Fg%2F11rqlcq3cb?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Makam Syekh Yusuf</a>',
         link: 'syekhyusuf.html'
       },
       andi: {
         img: 'andi.png',
         name: 'Andi Djemma',
         desc: 'Tokoh perjuangan kemerdekaan asal Luwu, Sulawesi Selatan. Ia berperan penting dalam mempersatukan rakyat melawan penjajah dan membangun pemerintahan daerah.',
-        makam: '<a href="https://maps.app.goo.gl/X3gG3YjM54RLzH4x9" target="_blank">Makam Andi Djemma – Palopo</a>',
+        makam: '<a href="https://www.google.com/maps/place/Taman+Makam+Pahlawan+Panaikang/@-5.1438963,119.458683,17.85z/data=!4m6!3m5!1s0x2dbee2d4590471dd:0x9898adef3e47a3dd!8m2!3d-5.1443401!4d119.4607693!16s%2Fg%2F1hm519qk_?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Makam Andi Djemma</a>',
         link: 'AndiDjemma.html'
       },
       palakka: {
         img: 'palakka.png',
         name: 'Arung Palakka',
         desc: 'Bangsawan Bone yang berperan besar dalam sejarah Sulawesi Selatan abad ke-17. Tindakannya berpengaruh pada hubungan antara Bone, Gowa, dan VOC.',
-        makam: '<a href="https://maps.app.goo.gl/1WCPKvyQ3w1tXQjZ8" target="_blank">Makam Arung Palakka – Bone</a>',
+        makam: '<a href="https://www.google.com/maps?sca_esv=404b834684c619cd&output=search&q=lokasi+makam+arung+palakka&source=lnms&fbs=AIIjpHxZSHO4BBrQmD3PXjKsg9pHO7fOpCHalheK8ChkR9jxpaPygJDT8yVjj5lLObEueKLtUKL1kTi4te53a7Xwx2xEqvfH3Epou3_rNVF1DqN3KlX2Yxwox_gvpGIrgaQBs-Kkj-EyStkg0d_Va_gsL4nzrW5Sm9RHtmD7PftUtkWaJyWVxbkQihdmtvce16dGX5JrJV42Olfs8wWfy90-4NNNeFEXhg&entry=mc&ved=1t:200715&ictx=111" target="_blank">Makam Arung Palakka</a>',
         link: 'arungpalakka.html'
       }
     };
@@ -192,7 +191,7 @@
         <img src="${h.img}" alt="${h.name}" />
         <h2>${h.name}</h2>
         <p>${h.desc}</p>
-        <p><strong>📍 Lokasi Makam:</strong> ${h.makam}</p>
+        <p><strong> Lokasi Makam:</strong> ${h.makam}</p>
         <a class="details-btn" href="${h.link}" target="_blank">Lihat Penjelasan Lengkap</a>
         <p><em>Untuk informasi lebih lanjut, silakan pindai QR Code di lokasi makam.</em></p>
       `;
